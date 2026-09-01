@@ -3,7 +3,7 @@ local wk = require("which-key.config")
 local M = {}
 
 function M.setup()
-    local group = vim.api.nvim_create_augroup("user.config.lang.rust", {})
+    local group = vim.api.nvim_create_augroup("user.config.lang.typst", {})
     vim.api.nvim_create_autocmd("BufReadPre", {
         group = group,
         pattern = "*.typ",

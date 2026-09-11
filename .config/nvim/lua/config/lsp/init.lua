@@ -355,7 +355,7 @@ function M.setup()
     setup_server("pyright")
     setup_server("vhdl_ls")
     setup_server("html")
-    setup_server("tsgo")
+    setup_server("tsc")
     setup_server("cssls")
 
     -- customized servers
